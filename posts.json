@@ -1,0 +1,9 @@
+[
+  { "id": "1", "text": "NICELY DONE", "createdAt": "Now", "owner": "1" },
+  { "id": "2", "text": "Awesome Work bro", "createdAt": "Now", "owner": "1" },
+  { "id": "3", "text": "You Nailed it !!!", "createdAt": "Now", "owner": "3" },
+  { "id": "4", "text": "I love it", "createdAt": "Now", "owner": "4" },
+  { "id": "5", "text": "Way to go !!! ", "createdAt": "Now", "owner": "5" },
+  { "id": "6", "text": "CHEERS!!!!", "createdAt": "Now", "owner": "6" },
+  { "id": "7", "text": "My first comment" }
+]

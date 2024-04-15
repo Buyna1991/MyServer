@@ -1,0 +1,45 @@
+[
+  {
+    "id": "1",
+    "text": "NICELY DONE",
+    "createdAt": "Now",
+    "owner": "1",
+    "postid": "1"
+  },
+  {
+    "id": "2",
+    "text": "Awesome Work bro",
+    "postid": "2",
+    "createdAt": "Now",
+    "owner": "1"
+  },
+  {
+    "id": "3",
+    "text": "You Nailed it !!!",
+    "postid": "3",
+    "createdAt": "Now",
+    "owner": "3"
+  },
+  {
+    "id": "4",
+    "text": "I love it",
+    "postid": "4",
+    "createdAt": "Now",
+    "owner": "4"
+  },
+  {
+    "id": "5",
+    "text": "Way to go !!! ",
+    "postid": "5",
+    "createdAt": "Now",
+    "owner": "5"
+  },
+  {
+    "id": "6",
+    "text": "CHEERS!!!!",
+    "postid": "6",
+    "createdAt": "Now",
+    "owner": "6"
+  },
+  { "id": "7", "text": "WOOOOOOW", "createdAt": 1707761103058 }
+]
