@@ -13,7 +13,7 @@ const cors = require("cors");
 var { expressjwt } = require("express-jwt");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
-require(dotenv).config();
+require("dotenv").config();
 
 const uri = process.env.Mongo_Url
 
