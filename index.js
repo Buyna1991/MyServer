@@ -16,12 +16,13 @@ const bcrypt = require("bcrypt");
 require("dotenv").config();
 
 const uri = process.env.Mongo_Url
+console.log(uri)
 
 const JWT_SECRET = "shhhhhhared-secret";
 
 myServer.use(express.json());
 myServer.use(cors());
-myServer.use(config);
+
 
 const client = new MongoClient(uri, {
   serverApi: {
