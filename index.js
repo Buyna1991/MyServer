@@ -16,7 +16,7 @@ const bcrypt = require("bcrypt");
 require("dotenv").config();
 
 const uri = process.env.Mongo_Url
-console.log(uri)
+
 
 const JWT_SECRET = "shhhhhhared-secret";
 
@@ -103,7 +103,7 @@ myServer.post("/reset-password", async (req, res) => {
     const { userPassword, token } = req.body;
     const data = jwt.verify(token, JWT_SECRET, { algorithms: "HS256" });
     await client.connect();
-    const userID = data.id;
+    const userID = data.userID;
     const hashedtoken = await client
       .db("users")
       .collection("passwordtoken")
