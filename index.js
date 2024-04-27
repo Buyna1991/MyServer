@@ -15,14 +15,12 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 require("dotenv").config();
 
-const uri = process.env.Mongo_Url
-
+const uri = process.env.Mongo_Url;
 
 const JWT_SECRET = "shhhhhhared-secret";
 
 myServer.use(express.json());
 myServer.use(cors());
-
 
 const client = new MongoClient(uri, {
   serverApi: {
